@@ -25,7 +25,7 @@ class RPoint
   }
   void move(int a, int b)
   {
-    x += a;
+    x += b;
     y += b;
   }
   override string toString()
